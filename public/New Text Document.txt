@@ -1,0 +1,16 @@
+In Salesforce, a trigger is a piece of Apex code that executes
+ before or after the following types of operations:
+
+Insert
+Update
+Delete
+Undelete
+Triggers are associated with one or more 
+objects and can be used to perform custom logic on 
+records before or after they are saved to the database.
+ Triggers can be used to enforce business rules, validate data, 
+ or update related records based on changes made to a record. 
+ For example, a trigger can be used to automatically update a 
+ related field in another object when a record is created or updated 
+ in the current object. Triggers are a powerful tool in Salesforce development and 
+can be used to automate tasks and improve the user experience.

@@ -1,0 +1,30 @@
+.form textarea {
+    height: 200px;
+    resize: none;
+
+}
+.wrappe{
+    border: 1px solid #fff;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 6px 11px #6f6e6e;
+
+}
+#input-field {
+    width: 400px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 15px;
+}
+
+@media(max-width:991px){
+.wrappe{
+    width: 100%;
+}
+#input-field{
+    width: 100%;
+    margin-top:30px;
+}
+}

@@ -1,0 +1,24 @@
+#menu {
+    display: none;
+}
+
+/* moved these styles inside the #menu curly braces */
+#menu #sub-menu {
+    color: #6f6e6e;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu #item {
+    width: 200px;
+    /* changed size to width */
+}
+
+@media(max-width:991px) {
+    #menu {
+        display: flex;
+        position: absolute;
+        right: 20px;
+    }
+}

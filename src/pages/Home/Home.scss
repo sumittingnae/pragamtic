@@ -1,0 +1,120 @@
+.container{
+ display: flex;
+ margin-top: 50px;
+ margin-left: 100px;  
+ margin-bottom: 20px; 
+height :auto;
+}   
+.title{
+    margin-top: 20px;
+    p{
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 5px 6px 11px #e43f0d;
+       
+    }
+}
+.card{
+   
+    color: #e43f0d;
+    margin-right: 100px;
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 6px 11px #e43f0d ;
+
+    .board{
+       
+       
+        border:1px solid #ffffff58;
+        border-radius: 20px;
+        background-color: #ffffff;
+        
+        padding: 10px 15px;
+        
+     
+
+    }
+    img{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 50px;
+       
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        width: 100%;
+        font-size: 15px;
+    }
+   
+}
+
+.client{
+    text-align: center;
+    margin-top: 80px;
+    .title{
+       p{
+        font-size: 50px;
+        text-shadow: 5px 6px 11px #e43f0d;
+       }
+
+    }
+    #client-img{
+        margin: 10px 0px 10px 0px;
+        border: 1px solid #fff;
+        width: 100%;
+        height: auto;
+        img{
+            margin-right: 20px;
+            border: 1px solid #fff;
+            width: 150px;
+           
+        }
+    }
+    #cl-5{
+        margin-top: 15px;
+    }
+}
+
+
+
+@media(max-width:991px){
+    .container{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .card{
+        margin: 10px 20px 0px 20px;
+    }
+        .card {
+            margin: 10px 20px 0px 20px;
+        }
+    
+}
+@media(max-width:771px) {
+    .title {
+            margin-top: 20px;
+    
+            p {
+                font-size: 35px;
+                text-align: center;
+                text-shadow: 5px 6px 11px #e43f0d;
+    
+            }
+        }
+                .client {
+                    text-align: center;
+                    margin-top: 80px;
+        
+                    .title {
+                        p {
+                            font-size: 30px;
+                            text-shadow: 5px 6px 11px #e43f0d;
+                        }
+        
+                    }
+                }
+
+}

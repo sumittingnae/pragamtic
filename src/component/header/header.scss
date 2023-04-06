@@ -1,0 +1,104 @@
+.header{
+    background-color: #efeeee7f;
+    // width: 100%;
+    display: flex;
+    // position:fixed;
+    height: 80px;
+   
+    // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    //     background-size: 400% 400%;
+    //     animation: gradient 15s ease infinite;
+    //     height: 10vh;
+}
+        .navbar {
+            height: 80px;
+            width: 100%;
+          
+    
+            img {
+                width: 80px;
+                position: absolute;
+                left: 0;
+                top:0;
+               
+    
+            }
+    
+    .menu {
+         position: absolute;
+        right: 300px;
+        display: flex;
+
+        #drop{
+            background-color: #dc5e5e;
+            color: white;
+            font-size: 15px;
+        }
+       
+       
+        .home {
+                margin-right: 10px;
+                color: #e2dfdf;
+                text-decoration: none;
+                font-size: 18px;
+        
+        
+            }
+        
+            .home:hover {
+                color: #dc5e5e;
+            }
+    
+    
+            }
+
+
+        h6{
+            font-size: 15px;
+            color: #fff;
+            margin-top: 25px;
+        }
+        .logo{
+            
+                display: flex;
+              img{
+                    position: absolute;
+                    left: 80px;
+                    top:30px;
+                    width: 150px;
+
+                }
+
+            
+        }
+                
+        
+    }
+
+      
+       
+       
+                
+                
+
+
+
+@media(max-width:991px){
+    .home{
+        display: none;
+    }
+        .logo {
+    
+            display: flex;
+    
+            img {
+                position: absolute;
+                left: 80px;
+                top: 30px;
+                width: 20px;
+    
+            }
+    
+    
+        }
+}
